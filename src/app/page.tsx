@@ -1,9 +1,8 @@
 "use client"
-import { response } from "express";
+
 import { useState } from "react";
 
 export default function Home() {
-  const [data, setPassword] = useState("")
   const [link, setLink] = useState("")
   const [nama, setNama] = useState("")
 
